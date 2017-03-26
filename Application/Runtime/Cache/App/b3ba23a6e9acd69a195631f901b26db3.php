@@ -4,14 +4,14 @@
 <title><?php echo ($info["name"]); ?></title>
 <meta name="viewport"
 	content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link href="/wemall/Theme/default/Public/css/foods.css" rel="stylesheet"type="text/css">
-<script type="text/javascript" src="/wemall/Theme/default/Public/js/jquery.min.js"></script>
-<script type="text/javascript" src="/wemall/Theme/default/Public/js/wemall.js"></script>
-<script type="text/javascript" src="/wemall/Theme/default/Public/js/alert.js"></script>
+<link href="/emenu/Theme/default/Public/css/foods.css" rel="stylesheet"type="text/css">
+<script type="text/javascript" src="/emenu/Theme/default/Public/js/jquery.min.js"></script>
+<script type="text/javascript" src="/emenu/Theme/default/Public/js/wemall.js"></script>
+<script type="text/javascript" src="/emenu/Theme/default/Public/js/alert.js"></script>
 
 <script type="text/javascript">
-var appurl = '/wemall/index.php';
-var rooturl = '/wemall';
+var appurl = '/emenu/index.php';
+var rooturl = '/emenu';
 var indexurl = '<?php echo U("App/Index/index");?>';
 </script>
 
@@ -46,7 +46,7 @@ var indexurl = '<?php echo U("App/Index/index");?>';
 					<div class="ccbg">
 						<?php if(is_array($goods)): $i = 0; $__LIST__ = $goods;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$goodsvo): $mod = ($i % 2 );++$i;?><dd menu="<?php echo ($goodsvo["menu_id"]); ?>">
 							<div class="tupian">
-								<img src="/wemall/Public<?php echo ($goodsvo["savepath"]); echo ($goodsvo["image"]); ?>"
+								<img src="/emenu/Public<?php echo ($goodsvo["savepath"]); echo ($goodsvo["image"]); ?>"
 									onclick="showDetail('<?php echo ($goodsvo["id"]); ?>');"> <a
 									href="javascript:doProduct('<?php echo ($goodsvo["id"]); ?>','<?php echo ($goodsvo["name"]); ?>','<?php echo ($goodsvo["price"]); ?>');" class="add"><p
 										class="dish2"><?php echo ($goodsvo["name"]); ?></p>
@@ -170,7 +170,7 @@ var indexurl = '<?php echo U("App/Index/index");?>';
 			<div class="btn-group"
 				style="position: fixed; font-size: 12px; width: 220px; bottom: 80px; left: 50%; margin-left: -110px; z-index: 999;">
 				<div class="del" style="font-size: 14px;">
-					<img src="/wemall/Theme/default/Public/images/ajax-loader.gif" alt="loader">正在提交订单...
+					<img src="/emenu/Theme/default/Public/images/ajax-loader.gif" alt="loader">正在提交订单...
 				</div>
 			</div>
 		</div>
@@ -193,7 +193,7 @@ var indexurl = '<?php echo U("App/Index/index");?>';
 				<div class="btn-group"
 					style="position: fixed; font-size: 12px; width: 220px; bottom: 80px; left: 50%; margin-left: -110px; z-index: 999;">
 					<div class="del" style="font-size: 14px;">
-						<img src="/wemall/Theme/default/Public/images/ajax-loader.gif" alt="loader">正在获取订单...
+						<img src="/emenu/Theme/default/Public/images/ajax-loader.gif" alt="loader">正在获取订单...
 					</div>
 				</div>
 			</div>
@@ -217,15 +217,15 @@ var indexurl = '<?php echo U("App/Index/index");?>';
 	<div class="footermenu">
 		<ul>
 			<li id="home"><a class="active" href="javascript:void(0);"> <img
-					src="/wemall/Theme/default/Public/images/home.png">
+					src="/emenu/Theme/default/Public/images/home.png">
 					<p>首页</p>
 			</a></li>
 
 			<li id="cart"><a href="javascript:void(0);"> <span class="num" id="cartN2">0</span> <img
-					src="/wemall/Theme/default/Public/images/cart.png">
+					src="/emenu/Theme/default/Public/images/cart.png">
 					<p>购物车</p>
 			</a></li>
-			<li id="user"><a href="javascript:void(0);"> <img src="/wemall/Theme/default/Public/images/user.png">
+			<li id="user"><a href="javascript:void(0);"> <img src="/emenu/Theme/default/Public/images/user.png">
 					<p>我的</p>
 			</a></li>
 		</ul>
