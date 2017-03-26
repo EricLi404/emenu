@@ -9,82 +9,82 @@
 
 		<!-- basic styles -->
 
-		<link href="/wemall/Public/Plugin/style/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/font-awesome.min.css" />
+		<link href="/emenu/Public/Plugin/style/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="/wemall/Public/Plugin/style/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="/emenu/Public/Plugin/style/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace.min.css" />
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace.min.css" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace-skins.min.css" />
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!-- ace settings handler -->
 
-		<script src="/wemall/Public/Plugin/style/js/ace-extra.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="/wemall/Public/Plugin/style/js/html5shiv.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/respond.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/html5shiv.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/respond.min.js"></script>
 		<![endif]-->
 		
 		<!-- javascript footer -->
 				<!--[if !IE]> -->
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/wemall/Public/Plugin/style/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='/emenu/Public/Plugin/style/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
 		</script>
 		<!-- <![endif]-->
 
 		<!--[if IE]>
 		<script type="text/javascript">
-		 	window.jQuery || document.write("<script src='/wemall/Public/Plugin/style/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+		 	window.jQuery || document.write("<script src='/emenu/Public/Plugin/style/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
 		</script>
 		<![endif]-->
 
 		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='/wemall/Public/Plugin/style/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+			if("ontouchend" in document) document.write("<script src='/emenu/Public/Plugin/style/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 		</script>
-		<script src="/wemall/Public/Plugin/style/js/bootstrap.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/typeahead-bs2.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/bootstrap.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
 
 		<!--[if lte IE 8]>
-		  <script src="/wemall/Public/Plugin/style/js/excanvas.min.js"></script>
+		  <script src="/emenu/Public/Plugin/style/js/excanvas.min.js"></script>
 		<![endif]-->
 
-		<script src="/wemall/Public/Plugin/style/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.slimscroll.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.easy-pie-chart.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.sparkline.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/flot/jquery.flot.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/flot/jquery.flot.pie.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/flot/jquery.flot.resize.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.slimscroll.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.sparkline.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/flot/jquery.flot.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/flot/jquery.flot.resize.min.js"></script>
 
 		<!-- ace scripts -->
 
-		<script src="/wemall/Public/Plugin/style/js/ace-elements.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/ace.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/ace-elements.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/ace.min.js"></script>
 	</head>
 	<body>
 <script type="text/javascript">
-var UEURL = '/wemall/Public/Plugin/umeditor/';
+var UEURL = '/emenu/Public/Plugin/umeditor/';
 </script>
-<link href="/wemall/Public/Plugin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="/wemall/Public/Plugin/umeditor/third-party/jquery.min.js"></script>
-<script type="text/javascript" charset="utf-8" src="/wemall/Public/Plugin/umeditor/umeditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="/wemall/Public/Plugin/umeditor/umeditor.min.js"></script>
-<script type="text/javascript" src="/wemall/Public/Plugin/umeditor/lang/zh-cn/zh-cn.js"></script>
+<link href="/emenu/Public/Plugin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/emenu/Public/Plugin/umeditor/third-party/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="/emenu/Public/Plugin/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/emenu/Public/Plugin/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" src="/emenu/Public/Plugin/umeditor/lang/zh-cn/zh-cn.js"></script>
 
 <div class="col-sm-12 widget-container-span">
 	<div class="widget-box transparent">
@@ -223,11 +223,11 @@ var UEURL = '/wemall/Public/Plugin/umeditor/';
 					
 					if (flag) {
 						$('input[name="addname"]').parent().append('<input type="hidden" name="goodid" value="'+json.id+'">');
-						$('input[name="addimage"]').parent().append('<img src="/wemall/Public'+json.savepath+json.image+'" id="goodimage" style="max-width:650px" class="img-thumbnail">');
+						$('input[name="addimage"]').parent().append('<img src="/emenu/Public'+json.savepath+json.image+'" id="goodimage" style="max-width:650px" class="img-thumbnail">');
 						flag = false;
 					}else{
 						$('input[name="goodid"]').val(json.id);
-						$('#goodimage').attr("src","/wemall/Public"+json.savepath+json.image);
+						$('#goodimage').attr("src","/emenu/Public"+json.savepath+json.image);
 					}
 				});
 				$('#myTab li').removeClass("active");

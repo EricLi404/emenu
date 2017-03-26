@@ -9,72 +9,72 @@
 
 		<!-- basic styles -->
 
-		<link href="/wemall/Public/Plugin/style/css/bootstrap.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/font-awesome.min.css" />
+		<link href="/emenu/Public/Plugin/style/css/bootstrap.min.css" rel="stylesheet" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/font-awesome.min.css" />
 
 		<!--[if IE 7]>
-		  <link rel="stylesheet" href="/wemall/Public/Plugin/style/css/font-awesome-ie7.min.css" />
+		  <link rel="stylesheet" href="/emenu/Public/Plugin/style/css/font-awesome-ie7.min.css" />
 		<![endif]-->
 
 		<!-- ace styles -->
 
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace.min.css" />
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace-rtl.min.css" />
-		<link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace-skins.min.css" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace.min.css" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace-rtl.min.css" />
+		<link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace-skins.min.css" />
 
 		<!--[if lte IE 8]>
-		  <link rel="stylesheet" href="/wemall/Public/Plugin/style/css/ace-ie.min.css" />
+		  <link rel="stylesheet" href="/emenu/Public/Plugin/style/css/ace-ie.min.css" />
 		<![endif]-->
 
 		<!-- ace settings handler -->
 
-		<script src="/wemall/Public/Plugin/style/js/ace-extra.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/ace-extra.min.js"></script>
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 
 		<!--[if lt IE 9]>
-		<script src="/wemall/Public/Plugin/style/js/html5shiv.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/respond.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/html5shiv.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/respond.min.js"></script>
 		<![endif]-->
 		
 		<!-- javascript footer -->
 				<!--[if !IE]> -->
 		<script type="text/javascript">
-			window.jQuery || document.write("<script src='/wemall/Public/Plugin/style/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
+			window.jQuery || document.write("<script src='/emenu/Public/Plugin/style/js/jquery-2.0.3.min.js'>"+"<"+"/script>");
 		</script>
 		<!-- <![endif]-->
 
 		<!--[if IE]>
 		<script type="text/javascript">
-		 	window.jQuery || document.write("<script src='/wemall/Public/Plugin/style/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
+		 	window.jQuery || document.write("<script src='/emenu/Public/Plugin/style/js/jquery-1.10.2.min.js'>"+"<"+"/script>");
 		</script>
 		<![endif]-->
 
 		<script type="text/javascript">
-			if("ontouchend" in document) document.write("<script src='/wemall/Public/Plugin/style/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
+			if("ontouchend" in document) document.write("<script src='/emenu/Public/Plugin/style/js/jquery.mobile.custom.min.js'>"+"<"+"/script>");
 		</script>
-		<script src="/wemall/Public/Plugin/style/js/bootstrap.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/typeahead-bs2.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/bootstrap.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/typeahead-bs2.min.js"></script>
 
 		<!-- page specific plugin scripts -->
 
 		<!--[if lte IE 8]>
-		  <script src="/wemall/Public/Plugin/style/js/excanvas.min.js"></script>
+		  <script src="/emenu/Public/Plugin/style/js/excanvas.min.js"></script>
 		<![endif]-->
 
-		<script src="/wemall/Public/Plugin/style/js/jquery-ui-1.10.3.custom.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.ui.touch-punch.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.slimscroll.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.easy-pie-chart.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/jquery.sparkline.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/flot/jquery.flot.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/flot/jquery.flot.pie.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/flot/jquery.flot.resize.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.ui.touch-punch.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.slimscroll.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.easy-pie-chart.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/jquery.sparkline.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/flot/jquery.flot.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/flot/jquery.flot.pie.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/flot/jquery.flot.resize.min.js"></script>
 
 		<!-- ace scripts -->
 
-		<script src="/wemall/Public/Plugin/style/js/ace-elements.min.js"></script>
-		<script src="/wemall/Public/Plugin/style/js/ace.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/ace-elements.min.js"></script>
+		<script src="/emenu/Public/Plugin/style/js/ace.min.js"></script>
 	</head>
 	<body>
 <div class="col-sm-12 widget-container-span">
@@ -140,7 +140,7 @@
 							<div class="col-xs-12 no-padding-right">
 								<div style="margin-left: 10px;">
 									<div style="width: 260px; float: left;">
-										<img src="/wemall/Theme/<?php echo ($settheme); ?>/thumb.png" style="width: 240px; height: 340px;"
+										<img src="/emenu/Theme/<?php echo ($settheme); ?>/thumb.png" style="width: 240px; height: 340px;"
 											class="img-thumbnail">
 										<button type="button" class="btn btn-info btn-lg btn-block"
 											style="margin: -2px 10px 0px 0px; width: 240px;">已设置</button>
@@ -150,7 +150,7 @@
 							<div class="col-xs-12" style="margin-top:20px;">
 								<?php if(is_array($theme)): $i = 0; $__LIST__ = $theme;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$themevo): $mod = ($i % 2 );++$i;?><div class="col-sm-4 col-md-3">
 									<div style="width: 260px; float: left;">
-										<img src="/wemall/Theme/<?php echo ($themevo->dir); ?>/thumb.png" style="width: 240px; height: 340px;"
+										<img src="/emenu/Theme/<?php echo ($themevo->dir); ?>/thumb.png" style="width: 240px; height: 340px;"
 											class="img-thumbnail">
 										<a type="button" href="<?php echo U('Admin/Index/settheme',array('name'=>$themevo->dir));?>" class="btn btn-default btn-lg btn-block"
 											style="margin: -2px 10px 0px 0px; width: 240px;">设置</a>

@@ -5,3 +5,4 @@ $git status
 #  
     .idea/  
     .gitignore  
+    .Application/Runtime/
